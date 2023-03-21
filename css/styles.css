@@ -1,0 +1,224 @@
+:root {
+    --color-primary: #434455;
+    --color-secondary: #2E2F42;
+    --color-action: #4D5AE5;
+    --color-brand: #2E2F42;
+    --color-brand-light: #F4F4FD;
+    --color-invert: #fff;
+    --color-logo: #4D5AE5;
+    --color-action-light: #E7E9FC;
+    --color-background: #fff;
+    --color-logo-header: #2E2F42;
+    --color-logo-footer: #F4F4FD;
+    --color-footer-text: #F4F4FD;
+    --color-hover-link: #404BBF;
+    --color-hover-btn: #404BBF;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    color: var(--color-primary);
+    background-color: var(--color-background);
+}
+
+.list {
+    list-style: none;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.logo {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    color: var(--color-logo);
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
+/* HEADER */
+
+.header-logo {
+    color: var(--color-logo-header);
+}
+
+.header-link {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--color-secondary);
+}
+
+.header-link:focus,
+.header-link:hover {
+    color: var(--color-hover-link);
+}
+
+.header-adress {
+    font-style: normal;
+}
+
+.header-contact {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--color-primary);
+}
+
+.header-contact:hover,
+.header-contact:focus {
+    color: var(--color-hover-link);
+}
+
+
+/* HERO SECTION */
+
+.hero-section {
+    background-color: var(--color-brand);
+}
+
+.hero-title {
+    font-size: 56px;
+    line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: var(--color-invert);
+}
+
+.hero-btn {
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.04em;
+    color: var(--color-invert);
+    background-color: var(--color-action);
+    cursor: pointer;
+}
+
+.hero-btn:hover,
+.hero-btn:focus {
+    background-color: var(--color-hover-btn);
+    color: var(--color-invert);
+}
+
+/* FEATURES */
+
+.feaures-subtitle {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--color-secondary);
+}
+
+.fetures-text {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+/* ABOUT */
+
+.about-title {
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: var(--color-secondary);
+}
+
+/* TEAM */
+
+.team {
+    background-color: var(--color-brand-light);
+}
+
+.team-title {
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: var(--color-secondary);
+}
+
+.team-item {
+    background-color: var(--color-invert);
+}
+
+.team-subtitle {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: var(--color-secondary);
+}
+
+.team-text {
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: center;
+    letter-spacing: 0.02em;
+}
+
+/* PORTFOLIO */
+
+.portfolio-btn {
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.04em;
+    cursor: pointer;
+    color: var(--color-action);
+    background-color: var(--color-logo-footer);
+}
+
+.portfolio-btn:hover,
+.portfolio-btn:focus {
+    color: var(--color-invert);
+    background-color: var(--color-hover-btn);
+}
+
+.portfolio-subtitle {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--color-secondary);
+}
+
+.portfolio-text {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+/* FOOTEER */
+
+.footer {
+    background-color: var(--color-brand);
+}
+
+.footer-logo {
+    color: var(--color-logo-footer);
+}
+
+.footer-text {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--color-footer-text);
+}
