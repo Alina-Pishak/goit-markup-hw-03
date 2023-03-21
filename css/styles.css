@@ -15,6 +15,30 @@
     --color-hover-btn: #404BBF;
 }
 
+p,
+h1,
+h2,
+h3 {
+    margin: 0;
+}
+
+ul {
+    margin: 0;
+    padding-left: 0;
+}
+
+button {
+    cursor: pointer;
+}
+
+address {
+    font-style: normal;
+}
+
+img {
+    display: block;
+}
+  
 body {
     font-family: 'Roboto', sans-serif;
     color: var(--color-primary);
@@ -39,7 +63,19 @@ body {
     text-transform: uppercase;
 }
 
+.container {
+    width: 1158px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+}
+
 /* HEADER */
+
+.header {
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
 
 .header-logo {
     color: var(--color-logo-header);
@@ -58,19 +94,16 @@ body {
     color: var(--color-hover-link);
 }
 
-.header-adress {
-    font-style: normal;
-}
 
-.header-contact {
+.header-address-item {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--color-primary);
 }
 
-.header-contact:hover,
-.header-contact:focus {
+.header-address-item:hover,
+.header-address-item:focus {
     color: var(--color-hover-link);
 }
 
@@ -79,6 +112,8 @@ body {
 
 .hero-section {
     background-color: var(--color-brand);
+    padding-top: 188px;
+    padding-bottom: 188px;
 }
 
 .hero-title {
@@ -99,7 +134,6 @@ body {
     letter-spacing: 0.04em;
     color: var(--color-invert);
     background-color: var(--color-action);
-    cursor: pointer;
 }
 
 .hero-btn:hover,
@@ -109,6 +143,11 @@ body {
 }
 
 /* FEATURES */
+
+.features {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
 
 .feaures-subtitle {
     font-weight: 500;
@@ -126,6 +165,10 @@ body {
 
 /* ABOUT */
 
+.about {
+    padding-bottom: 120px;
+}
+
 .about-title {
     font-size: 36px;
     line-height: 1.11;
@@ -139,6 +182,8 @@ body {
 
 .team {
     background-color: var(--color-brand-light);
+    padding-top: 120px;
+    padding-bottom: 120px;
 }
 
 .team-title {
@@ -171,6 +216,10 @@ body {
 }
 
 /* PORTFOLIO */
+.portfolio {
+    padding-top: 96px;
+    padding-bottom: 120px;
+}
 
 .portfolio-btn {
     font-family: inherit;
@@ -181,7 +230,6 @@ body {
     align-items: center;
     text-align: center;
     letter-spacing: 0.04em;
-    cursor: pointer;
     color: var(--color-action);
     background-color: var(--color-logo-footer);
 }
@@ -210,6 +258,8 @@ body {
 
 .footer {
     background-color: var(--color-brand);
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 
 .footer-logo {
